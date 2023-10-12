@@ -10,7 +10,7 @@ app.use(express.json());
 
 /// DATABASE CONNECTION
 mongoose.connect(
-    "mongodb://localhost:27017/employeeDB?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "mongodb+srv://Noreen:Tharusha@123@cluster0.nd3emdc.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true }
 );
 
