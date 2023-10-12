@@ -10,7 +10,7 @@ app.use(express.json());
 
 /// DATABASE CONNECTION
 mongoose.connect(
-    "mongodb+srv://Noreen:E2pM8OzH12KhyLQE@cluster0.ionfh5e.mongodb.net/employeeDB?retryWrites=true&w=majority",
+    "mongodb+srv://Noreen:dAEeAhcTRbNc3ZFl@cluster0.bttgs4e.mongodb.net/employeeDB?retryWrites=true&w=majority",
     { useNewUrlParser: true }
 );
 
